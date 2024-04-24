@@ -21,15 +21,15 @@ BOT_NAME = getenv("BOT_NAME" , "Hell Music")
 ASSUSERNAME = getenv("ASSUSERNAME" , "AloneXHelper")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://VamsixD:VamsixD@vamsi.x7gyybv.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 1000))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002055640243"))
 
 # Get this value from @FallenxBot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6079943111))
+OWNER_ID = int(getenv("OWNER_ID", "6439286014"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -69,7 +69,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQE9W20AXKJaNmApe6uYmw5jbCm011NWSyJ1qGO2JGZ9HSlji-Eu5O1zoVkFRs3fkBgahX3M-ZRITDslmP3CSRmzesxwEro8lW3PTUquIYkRLCGwq5zKU2wQ1TqfapyR53-Gn5ZOmiUYKqsJioS-_nZxW4Q2K1Wbw-8Y4qLi9ZZyZYUxR03r4VhmneZ86Tx-FTB8f9gr4w8bG5qQilE3J1EHEdXimamYxAJ7efe70oO2m176KB_gmFYlHVuMrS4DxnBKOhg_iODAxJ6v9joZdjqXf41d3bDx5a76jheDKxosicBbO8XaSj0BClljrdLs6XmPHeCx8SjUF7lx1IeUH2cVe_VHvAAAAAGbCUdtAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
