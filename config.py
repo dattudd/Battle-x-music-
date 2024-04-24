@@ -7,16 +7,16 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "20798317"))
+API_HASH = getenv("API_HASH", "82a94d416e05ca5cc3bc04da8494d7ca")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","ALONE_WAS_BOT")
+OWNER_USERNAME = getenv("OWNER_USERNAME","DFSchinna_op")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "AloneXMusicBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "HellXMusicBot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Alone Music")
+BOT_NAME = getenv("BOT_NAME" , "Hell Music")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , "AloneXHelper")
 
