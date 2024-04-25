@@ -4,7 +4,7 @@ from AloneXMusic import app
 from config import BOT_USERNAME
 
 start_txt = """
-✪ 𝐖εℓ¢σмє 𝐅σя 𝐀ℓσиє 𝐑єρσѕ ✪
+✪ 𝐖εℓ¢σмє 𝐅σя Hell 𝐑єρσѕ ✪
  
  ➲ ᴀʟʟ ʀᴇᴘᴏ ᴇᴀsɪʟʏ ᴅᴇᴘʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴀɴʏ ᴇʀʀᴏʀ ✰
  
@@ -49,5 +49,5 @@ InlineKeyboardButton("𝗔𝗟𝗢𝗡𝗘 𝗬𝗨𝗞𝗞𝗜", url=f"https://
 InlineKeyboardButton("𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://t.me/Hell_updates"),
 InlineKeyboardButton("𝗜𝗗 𝗖𝗛𝗔𝗧 𝗕𝗢𝗧", url=f"https://t.me/Hell_updates"),
 ],
-[
+
               
